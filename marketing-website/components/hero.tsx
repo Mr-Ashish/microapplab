@@ -69,9 +69,9 @@ export default function Hero() {
               >
                 <div>
                   <a
+                    href="https://slack.com/oauth/v2/authorize?client_id=5139101796599.5166301477521&scope=app_mentions:read,calls:write,channels:history,channels:read,chat:write,commands,files:read,files:write,groups:history,groups:read,im:history,incoming-webhook,mpim:history,mpim:read,users:read&user_scope=channels:read,im:read"
                     className="btn text-white bg-black bg-opacity-50 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-full flex flex-row items-center"
                     style={{ lineHeight: 1 }}
-                    href="#0"
                   >
                     <Image
                       className="mr-2"
