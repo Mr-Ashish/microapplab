@@ -69,7 +69,7 @@ export default function Hero() {
               >
                 <div>
                   <a
-                    href="https://apiv2.microapplab.com/slack/install"
+                    href="http://apiv2.microapplab.com/slack/install"
                     className="btn text-white bg-black bg-opacity-50 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-full flex flex-row items-center"
                     style={{ lineHeight: 1 }}
                   >
