@@ -6,7 +6,7 @@ import Header from "@/components/ui/header";
 import Banner from "@/components/banner";
 
 const inter = Tajawal({
-  weight: "900",
+  weight: ["400", "900"],
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",

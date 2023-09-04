@@ -89,14 +89,14 @@ export default function Header() {
                   Pricing
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="/help"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Help
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/contactUs"

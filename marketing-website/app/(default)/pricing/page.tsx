@@ -1,100 +1,56 @@
-export default function Pricing() {
+// pages/Pricing.js
+
+import Head from "next/head";
+
+const Pricing = () => {
   return (
-    <>
-      <div
-        style={{
-          fontWeight: 400,
-          fontSize: "18px",
-          marginTop: "100px",
-          marginLeft: "10%",
-          marginRight: "10%",
-          marginBottom: "100px",
-        }}
-      >
-        --- **Privacy Policy for Birthday Billy**
-        <br />
-        <br />
-        <p>**Last Updated: [Date]**</p>
-        <br />
-        <p>
-          **1. Introduction** Welcome to [Your Slack App Name]! This privacy
-          policy outlines how we collect, use, and protect your personal
-          information when you use our Slack app. Your privacy and data security
-          are essential to us, and we are committed to safeguarding your
-          information.{" "}
-        </p>
-        <br />
-        <p>
-          **2. Information We Collect** a. **User Birthdays:** We collect your
-          birthday information, including the day and month, when you provide it
-          to us through the Slack app. We do not collect your year of birth. b.
-          **Slack User Information:** We may collect your Slack user ID,
-          username, and other relevant information necessary for our app to
-          function correctly.
-        </p>
-        <br />
-        <p>
-          {" "}
-          **3. How We Use Your Information** a. **Birthday Wishes:** We use the
-          birthday information you provide to send you birthday wishes through
-          Slack on your special day. b. **Service Improvement:** We may use
-          aggregated and anonymized data for the purpose of improving our app's
-          functionality and user experience.
-        </p>{" "}
-        <br />
-        <p>
-          {" "}
-          **4. Data Retention** We retain your birthday information only for as
-          long as necessary to provide you with the birthday wishes service.
-          Once your birthday has passed, we do not retain this information.
-        </p>{" "}
-        <br />
-        <p>
-          {" "}
-          **5. Data Security** We take data security seriously. We have
-          implemented reasonable security measures to protect your information
-          from unauthorized access, disclosure, alteration, or destruction.
-        </p>{" "}
-        <br />
-        <p>
-          **6. Third-Party Integrations** Our app may integrate with third-party
-          services to enhance its functionality. Please review the privacy
-          policies of these third-party services as we have no control over
-          their data collection and usage practices.
-        </p>{" "}
-        <br />
-        <p>
-          **7. Legal Disclosure** We may disclose your information if required
-          by law or in response to a valid legal request from law enforcement
-          authorities.{" "}
-        </p>{" "}
-        <br />
-        <p>
-          **8. Your Rights** a. **Access and Correction:** You have the right to
-          access the personal information we hold about you. You can also
-          request corrections to any inaccurate data we have. b. **Data
-          Deletion:** You may request the deletion of your birthday information
-          from our records at any time.
-        </p>{" "}
-        <br />
-        <p>
-          **9. Contact Us** If you have any questions, concerns, or requests
-          regarding your privacy or this privacy policy, please contact us at
-          [Your Contact Information].
-        </p>{" "}
-        <br />
-        <p>
-          **10. Changes to this Privacy Policy** We may update this privacy
-          policy from time to time to reflect changes in our practices or for
-          legal or regulatory reasons. We will notify you of any significant
-          changes via Slack or other communication channels.
-        </p>{" "}
-        <br />
-        <p>
-          **11. Consent** By using our Slack app, you consent to the terms of
-          this privacy policy.
-        </p>
+    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
+      <Head>
+        <title>Pricing Plans | Birthday Bot</title>
+      </Head>
+
+      <div className="max-w-5xl">
+        <h1 className="text-3xl font-semibold text-gray-800 mb-6">
+          Pricing Plans
+        </h1>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-blue-100 rounded-lg shadow-md p-6 transform transition-transform hover:scale-105">
+            <h2 className="text-2xl font-semibold text-blue-700">Basic Plan</h2>
+            <p className="text-blue-600 font-bold animate-pulse mb-4">
+              Limited-time offer!
+            </p>
+            <ul className="list-disc list-inside text-gray-700">
+              <li>Individual birthday updates</li>
+              <li>Bulk org-level birthday upload</li>
+              <li>
+                Birthday wishes with animated gifs on the channel of your choice
+              </li>
+            </ul>
+          </div>
+
+          <div className="bg-green-100 rounded-lg shadow-md p-6 transform transition-transform hover:scale-105">
+            <h2 className="text-2xl font-semibold text-green-700">
+              Advanced Plan
+            </h2>
+            <p className="text-green-600 mb-4">Coming soon</p>
+            <p className="text-green-600 mb-4">
+              Features include:
+              <ul className="list-disc list-inside text-gray-700 pl-4">
+                <li>Wishes on work anniversary</li>
+                <li>Shoutout for great work</li>
+                <li>Other celebrations</li>
+                <li>Customized birthday message templates</li>
+                <li>Integration with HR software</li>
+                <li>Advanced analytics and reporting</li>
+              </ul>
+            </p>
+            <p className="text-green-600">Please contact us for this plan.</p>
+          </div>
+        </div>
       </div>
-    </>
+    </div>
   );
-}
+};
+
+export default Pricing;

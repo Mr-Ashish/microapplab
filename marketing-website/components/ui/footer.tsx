@@ -29,7 +29,7 @@ export default function Footer() {
               </a>{" "}
               ·{" "}
               <a
-                href="#0"
+                href="/privacyPolicy"
                 className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
               >
                 Privacy Policy
@@ -46,7 +46,7 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Web Studio
+                  BirthdayBilly
                 </a>
               </li>
               <li className="mb-2">
@@ -54,10 +54,10 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  DynamicBox Flex
+                  Standup Assistant
                 </a>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <a
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
@@ -80,12 +80,12 @@ export default function Footer() {
                 >
                   Command-line
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -129,7 +129,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
@@ -137,7 +137,7 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Home
@@ -145,23 +145,16 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/aboutUs"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   About us
                 </a>
               </li>
+
               <li className="mb-2">
                 <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Company values
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
+                  href="/pricing"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Pricing
@@ -169,7 +162,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/privacyPolicy"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Privacy Policy
@@ -179,7 +172,7 @@ export default function Footer() {
           </div>
 
           {/* 5th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
             <p className="text-sm text-gray-600 mb-4">
               Get the latest news and articles to your inbox every month.
@@ -219,12 +212,10 @@ export default function Footer() {
                       </svg>
                     </button>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
                 </div>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom area */}
