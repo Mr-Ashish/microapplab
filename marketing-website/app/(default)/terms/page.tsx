@@ -8,7 +8,7 @@ const Terms: React.FC<any> = () => {
         Terms of Service for BirthdayBilly
       </h1>
       <p>
-        <strong>Effective Date: [Date]</strong>
+        <strong>Effective Date: 5th September 2023</strong>
       </p>
       <h2 id="1-introduction">1. Introduction</h2>
       <p>
@@ -71,8 +71,8 @@ const Terms: React.FC<any> = () => {
       <ul>
         <li>
           All intellectual property associated with BirthdayBilly, including the
-          bot&#39;s name, logo, and any related content, is owned by [Your
-          Company Name].
+          bot&#39;s name, logo, and any related content, is owned by
+          microapplab.
         </li>
       </ul>
       <h2 id="6-termination-of-accounts">6. Termination of Accounts</h2>
@@ -96,7 +96,7 @@ const Terms: React.FC<any> = () => {
         <li>
           Any disputes arising from the use of BirthdayBilly will be resolved
           through negotiation and, if necessary, mediation or legal action in
-          accordance with [Jurisdiction] law.
+          accordance with Indian law.
         </li>
       </ul>
       <h2 id="8-limitations-of-liability">8. Limitations of Liability</h2>
@@ -117,14 +117,13 @@ const Terms: React.FC<any> = () => {
       <ul>
         <li>
           These Terms are governed by and construed in accordance with the laws
-          of [Jurisdiction], and any legal actions will take place in
-          [Jurisdiction].
+          of India, and any legal actions will take place in India.
         </li>
       </ul>
       <h2 id="11-contact-information">11. Contact Information</h2>
       <p>
         If you have any questions, concerns, or require support, please contact
-        us at [Your Contact Information].
+        us at gm.ashish.mishra@gmail.com.
       </p>
       <p>
         By using BirthdayBilly, you acknowledge that you have read and agree to
