@@ -123,7 +123,7 @@ const Terms: React.FC<any> = () => {
       <h2 id="11-contact-information">11. Contact Information</h2>
       <p>
         If you have any questions, concerns, or require support, please contact
-        us at gm.ashish.mishra@gmail.com.
+        us at support@microapplab.com.
       </p>
       <p>
         By using BirthdayBilly, you acknowledge that you have read and agree to

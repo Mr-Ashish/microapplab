@@ -8,7 +8,7 @@ The BirthdayBilly App is committed to respecting the privacy and data removal ri
 
 **2. Data Removal Request**
 
-Users have the right to request the removal of their data from the App's records. To submit a data removal request, users should contact us at gm.ashish.mishra@gmail.com or follow the instructions provided within the Slack workspace.
+Users have the right to request the removal of their data from the App's records. To submit a data removal request, users should contact us at support@microapplab.com or follow the instructions provided within the Slack workspace.
 
 **3. Data Removal Process**
 
@@ -32,4 +32,4 @@ While we strive to promptly fulfill data removal requests, there may be legal or
 
 **7. Contact Information**
 
-For data removal requests or questions related to data removal, please contact us at gm.ashish.mishra@gmail.com.
+For data removal requests or questions related to data removal, please contact us at support@microapplab.com.

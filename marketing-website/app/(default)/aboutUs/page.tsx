@@ -90,10 +90,10 @@ const About = () => {
           <p className="text-gray-600">
             Connect with us at{" "}
             <a
-              href="mailto:gm.ashish.mishra@gmail.com"
+              href="mailto:support@microapplab.com"
               className="text-blue-500 hover:underline"
             >
-              gm.ashish.mishra@gmail.com
+              support@microapplab.com
             </a>{" "}
             or give us a call at [+91 8220574074].
           </p>

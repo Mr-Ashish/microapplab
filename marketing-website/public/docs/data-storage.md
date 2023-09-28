@@ -46,4 +46,4 @@ We may update this Data Storage Policy periodically. Users will be notified of a
 
 **9. Contact Information**
 
-For questions, concerns, or requests related to data storage, please contact us at gm.ashish.mishra@gmail.com.
+For questions, concerns, or requests related to data storage, please contact us at support@microapplab.com.

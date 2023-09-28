@@ -13,10 +13,10 @@ export default function ContactUs() {
       <p className="text-lg text-gray-600 mb-4">
         You can send an email to:{" "}
         <a
-          href="mailto:gm.ashish.mishra@gmail.com"
+          href="mailto:support@microapplab.com"
           className="text-blue-500 hover:underline"
         >
-          gm.ashish.mishra@gmail.com
+          support@microapplab.com
         </a>
       </p>
 

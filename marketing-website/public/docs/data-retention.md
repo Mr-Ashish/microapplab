@@ -57,4 +57,4 @@ We may update this Data Retention Policy periodically. Users will be notified of
 
 **9. Contact Information**
 
-For questions, concerns, or requests related to data retention, please contact us at gm.ashish.mishra@gmail.com.
+For questions, concerns, or requests related to data retention, please contact us at support@microapplab.com.

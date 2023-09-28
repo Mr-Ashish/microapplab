@@ -55,7 +55,7 @@ from our records at any time.
 
 **9. Contact Us** If you have any questions, concerns, or requests
 regarding your privacy or this privacy policy, please contact us at
-**gm.ashish.mishra@gmail.com**.
+**support@microapplab.com**.
 
 **10. Changes to this Privacy Policy** We may update this privacy
 policy from time to time to reflect changes in our practices or for

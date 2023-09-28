@@ -76,7 +76,7 @@ const PrivacyPolicy: React.FC<any> = () => {
         <strong>9. Contact Us</strong> If you have any questions, concerns, or
         requests regarding your privacy or this privacy policy, please contact
         us at
-        <strong>gm.ashish.mishra@gmail.com</strong>.
+        <strong>support@microapplab.com</strong>.
       </p>
       <p>
         <strong>10. Changes to this Privacy Policy</strong> We may update this
