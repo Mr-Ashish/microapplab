@@ -15,7 +15,7 @@ const BirthdayBilly = () => {
 
   useEffect(() => {
     // Define the API URL with query parameters
-    const apiUrl = `http://apiv2.microapplab.com/slack/oauth_redirect?code=${code}&state=${state}`;
+    const apiUrl = `https://apiv2.microapplab.com/slack/oauth_redirect?code=${code}&state=${state}`;
 
     // Fetch data from the API
     const fetchData = async () => {
