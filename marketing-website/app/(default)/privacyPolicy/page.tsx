@@ -2,92 +2,98 @@ import React from "react";
 
 const PrivacyPolicy: React.FC<any> = () => {
   return (
-    <div className="container mx-auto py-40">
-      <div className="prose max-w-4xl mx-auto" />
-      <p>
-        <strong>Privacy Policy for Birthday Billy</strong>
-      </p>
-      <p>
-        <strong>Last Updated: 4th September 2023</strong>
-      </p>
-      <p>
-        <strong>1. Introduction</strong> Welcome to BirthdayBilly! This privacy
-        policy outlines how we collect, use, and protect your personal
-        information when you use our Slack app. Your privacy and data security
-        are essential to us, and we are committed to safeguarding your
-        information.
-      </p>
-      <p>
-        <strong>2. Information We Collect</strong>{" "}
-      </p>
-      <p>
-        a. <strong>User Birthdays:</strong> We collect your birthday
-        information, including the day and month, when you provide it to us
-        through the Slack app. We do not collect your year of birth.{" "}
-      </p>
-      <p>
-        b.<strong>Slack User Information:</strong> We may collect your Slack
-        user ID, username, and other relevant information necessary for our app
-        to function correctly.
-      </p>
-      <p>
-        <strong>3. How We Use Your Information</strong>
-        a. <strong>Birthday Wishes:</strong> We use the birthday information you
-        provide to send you birthday wishes through Slack on your special day.{" "}
-      </p>
-      <p>
-        b. <strong>Service Improvement:</strong> We may use aggregated and
-        anonymized data for the purpose of improving our app&#39;s functionality
-        and user experience.
-      </p>
-      <p>
-        <strong>4. Data Retention</strong> We retain your birthday information
-        only for as long as necessary to provide you with the birthday wishes
-        service. Once your birthday has passed, we do not retain this
-        information.
-      </p>
-      <p>
-        <strong>5. Data Security</strong> We take data security seriously. We
-        have implemented reasonable security measures to protect your
-        information from unauthorized access, disclosure, alteration, or
-        destruction.
-      </p>
-      <p>
-        <strong>6. Third-Party Integrations</strong> We currently don&#39;t have
-        any third party integration but Our app may integrate with third-party
-        services to enhance its functionality. Please review the privacy
-        policies of these third-party services as we have no control over their
-        data collection and usage practices.
-      </p>
-      <p>
-        <strong>7. Legal Disclosure</strong> We may disclose your information if
-        required by law or in response to a valid legal request from law
-        enforcement authorities.
-      </p>
-      <p>
-        <strong>8. Your Rights</strong> a.{" "}
-        <strong>Access and Correction:</strong> You have the right to access the
-        personal information we hold about you. You can also request corrections
-        to any inaccurate data we have. b. <strong>Data Deletion:</strong> You
-        may request the deletion of your birthday information from our records
-        at any time.
-      </p>
-      <p>
-        <strong>9. Contact Us</strong> If you have any questions, concerns, or
-        requests regarding your privacy or this privacy policy, please contact
-        us at
-        <strong>support@microapplab.com</strong>.
-      </p>
-      <p>
-        <strong>10. Changes to this Privacy Policy</strong> We may update this
-        privacy policy from time to time to reflect changes in our practices or
-        for legal or regulatory reasons. We will notify you of any significant
-        changes via Slack or other communication channels.
-      </p>
-      <p>
-        <strong>11. Consent</strong> By using our Slack app, you consent to the
-        terms of this privacy policy.
-      </p>
+    <div>
+      <div className="container mx-auto py-40">
+        <div className="prose max-w-4xl mx-auto" />
+        <h1 style={{ fontSize: "30px" }}>Privacy Policy</h1>
+        <p>
+          <strong>Last Updated:</strong> 2nd June 2024
+        </p>
+        <p>
+          MicroAppLab ("we," "us," or "our") is committed to protecting your
+          privacy. This Privacy Policy explains how we collect, use, disclose,
+          and safeguard your information when you use our software as a service
+          (SaaS) tools and services (collectively, the "Services"). Please read
+          this Privacy Policy carefully. If you do not agree with the terms of
+          this Privacy Policy, please do not use the Services.
+        </p>
+        <h2>1. Information We Collect</h2>
+        <ul>
+          <li>
+            <strong>Personal Information:</strong> We may collect personal
+            information that you provide to us directly, such as your name,
+            email address, payment information, and other contact details.
+          </li>
+          <li>
+            <strong>Usage Data:</strong> We may collect information about your
+            interactions with our Services, including the pages you visit, the
+            features you use, and the actions you take.
+          </li>
+          <li>
+            <strong>Device Information:</strong> We may collect information
+            about the devices you use to access our Services, including the IP
+            address, browser type, and operating system.
+          </li>
+        </ul>
+        <h2>2. How We Use Your Information</h2>
+        <ul>
+          <li>To provide, maintain, and improve our Services</li>
+          <li>To process transactions and send you related information</li>
+          <li>
+            To communicate with you, including responding to your comments,
+            questions, and requests
+          </li>
+          <li>
+            To monitor and analyze trends, usage, and activities in connection
+            with our Services
+          </li>
+          <li>
+            To detect, investigate, and prevent fraudulent transactions and
+            other illegal activities
+          </li>
+        </ul>
+        <h2>3. Sharing Your Information</h2>
+        <ul>
+          <li>
+            <strong>With Service Providers:</strong> We may share your
+            information with third-party service providers who perform services
+            on our behalf, such as payment processing, data analysis, and
+            customer service.
+          </li>
+          <li>
+            <strong>For Legal Reasons:</strong> We may disclose your information
+            if required to do so by law or in response to valid requests by
+            public authorities.
+          </li>
+        </ul>
+        <h2>4. Security of Your Information</h2>
+        <p>
+          We use reasonable administrative, technical, and physical security
+          measures to protect your information. However, no method of
+          transmission over the internet, or method of electronic storage, is
+          100% secure, and we cannot guarantee absolute security.
+        </p>
+        <h2>5. Your Privacy Rights</h2>
+        <p>
+          You may have certain rights regarding your personal information, such
+          as the right to access, correct, or delete your personal information.
+          To exercise these rights, please contact us at
+          support@microapplab.com.
+        </p>
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>
+          We may update this Privacy Policy from time to time. We will notify
+          you of any changes by posting the new Privacy Policy on our website.
+          You are advised to review this Privacy Policy periodically for any
+          changes.
+        </p>
+        <h2>7. Contact Us</h2>
+        <p>
+          If you have any questions about this Privacy Policy, please contact us
+          at:
+        </p>
+        <p>Email: support@microapplab.com</p>
+      </div>
     </div>
   );
 };

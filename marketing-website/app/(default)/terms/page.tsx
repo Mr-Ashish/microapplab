@@ -4,132 +4,90 @@ const Terms: React.FC<any> = () => {
   return (
     <div className="container mx-auto py-40">
       <div className="prose max-w-4xl mx-auto" />
-      <h1 id="terms-of-service-for-birthdaybilly">
-        Terms of Service for BirthdayBilly
-      </h1>
+      <h1 style={{ fontSize: "30px" }}>Terms of Use</h1>
       <p>
-        <strong>Effective Date: 5th September 2023</strong>
-      </p>
-      <h2 id="1-introduction">1. Introduction</h2>
-      <p>
-        Welcome to BirthdayBilly, your friendly Slack bot designed to remind
-        teams of upcoming birthdays and facilitate birthday celebrations within
-        your workspace. By using BirthdayBilly (&quot;the Service&quot;), you
-        agree to adhere to the following Terms of Service (&quot;the
-        Terms&quot;). Please read these Terms carefully before using the
-        Service.
-      </p>
-      <h2 id="2-user-eligibility">2. User Eligibility</h2>
-      <p>
-        To use BirthdayBilly, you must be a member of a Slack workspace where
-        BirthdayBilly is installed. There are no age restrictions, but you must
-        have the necessary permissions within your workspace.
-      </p>
-      <h2 id="3-user-rights-and-responsibilities">
-        3. User Rights and Responsibilities
-      </h2>
-      <ul>
-        <li>
-          <p>
-            <strong>Birthday Celebrations:</strong> You may use BirthdayBilly to
-            receive birthday reminders, plan celebrations, and send birthday
-            wishes to your fellow team members.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Respectful Behavior:</strong> You are expected to use the
-            Service respectfully and follow all relevant guidelines and policies
-            within your Slack workspace.
-          </p>
-        </li>
-      </ul>
-      <h2 id="4-data-privacy-and-security">4. Data Privacy and Security</h2>
-      <ul>
-        <li>
-          <p>
-            <strong>Data Collection:</strong> BirthdayBilly collects and stores
-            basic user data, including usernames and birthday dates, solely for
-            the purpose of providing birthday reminders and facilitating
-            celebrations.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Data Usage:</strong> User data will not be shared with third
-            parties and will be used exclusively for the intended purpose.
-          </p>
-        </li>
-        <li>
-          <p>
-            <strong>Security:</strong> We take data security seriously and have
-            implemented measures to protect user data from unauthorized access.
-          </p>
-        </li>
-      </ul>
-      <h2 id="5-intellectual-property">5. Intellectual Property</h2>
-      <ul>
-        <li>
-          All intellectual property associated with BirthdayBilly, including the
-          bot&#39;s name, logo, and any related content, is owned by
-          microapplab.
-        </li>
-      </ul>
-      <h2 id="6-termination-of-accounts">6. Termination of Accounts</h2>
-      <ul>
-        <li>
-          <p>
-            Users may request the removal of their BirthdayBilly account at any
-            time.
-          </p>
-        </li>
-        <li>
-          <p>
-            We reserve the right to terminate access to BirthdayBilly for users
-            who violate these Terms or engage in inappropriate behavior within
-            the Slack workspace.
-          </p>
-        </li>
-      </ul>
-      <h2 id="7-dispute-resolution">7. Dispute Resolution</h2>
-      <ul>
-        <li>
-          Any disputes arising from the use of BirthdayBilly will be resolved
-          through negotiation and, if necessary, mediation or legal action in
-          accordance with Indian law.
-        </li>
-      </ul>
-      <h2 id="8-limitations-of-liability">8. Limitations of Liability</h2>
-      <ul>
-        <li>
-          We are not responsible for any damages or losses incurred while using
-          BirthdayBilly.
-        </li>
-      </ul>
-      <h2 id="9-changes-to-terms">9. Changes to Terms</h2>
-      <ul>
-        <li>
-          These Terms may be updated periodically. Users will be notified of any
-          changes within the Slack workspace.
-        </li>
-      </ul>
-      <h2 id="10-governing-law">10. Governing Law</h2>
-      <ul>
-        <li>
-          These Terms are governed by and construed in accordance with the laws
-          of India, and any legal actions will take place in India.
-        </li>
-      </ul>
-      <h2 id="11-contact-information">11. Contact Information</h2>
-      <p>
-        If you have any questions, concerns, or require support, please contact
-        us at support@microapplab.com.
+        <strong>Last Updated:</strong> 2nd June 2024
       </p>
       <p>
-        By using BirthdayBilly, you acknowledge that you have read and agree to
-        these Terms of Service. Enjoy celebrating birthdays and fostering a
-        positive workplace culture with BirthdayBilly!
+        These Terms of Use ("Terms") govern your access to and use of the
+        services provided by MicroAppLab ("we," "us," or "our"). By using our
+        services, you agree to these Terms. If you do not agree to these Terms,
+        please do not use our services.
       </p>
+
+      <h2>1. Use of Services</h2>
+      <p>
+        You agree to use our services only for lawful purposes and in accordance
+        with these Terms. You are responsible for your use of the services and
+        for any content you provide, including compliance with applicable laws,
+        rules, and regulations.
+      </p>
+
+      <h2>2. Accounts</h2>
+      <p>
+        To use certain features of our services, you may need to create an
+        account. You must provide accurate and complete information when
+        creating an account and keep this information up to date. You are
+        responsible for maintaining the confidentiality of your account and
+        password and for all activities that occur under your account.
+      </p>
+
+      <h2>3. Subscription and Payment</h2>
+      <p>
+        We offer both subscription-based and one-time purchase options for our
+        services. By subscribing to or purchasing our services, you agree to pay
+        the applicable fees and charges. All payments are non-refundable except
+        as expressly provided in our Cancellation and Refund Policy.
+      </p>
+
+      <h2>4. Intellectual Property</h2>
+      <p>
+        All content, trademarks, service marks, logos, and other intellectual
+        property on our services are owned by MicroAppLab or its licensors. You
+        may not use any of our intellectual property without our prior written
+        consent.
+      </p>
+
+      <h2>5. Termination</h2>
+      <p>
+        We may terminate or suspend your access to our services at any time,
+        without notice, for conduct that we believe violates these Terms or is
+        harmful to other users of our services, us, or third parties, or for any
+        other reason.
+      </p>
+
+      <h2>6. Disclaimers</h2>
+      <p>
+        Our services are provided "as is" and "as available" without warranties
+        of any kind, either express or implied. We do not warrant that the
+        services will be uninterrupted or error-free.
+      </p>
+
+      <h2>7. Limitation of Liability</h2>
+      <p>
+        To the fullest extent permitted by law, MicroAppLab shall not be liable
+        for any indirect, incidental, special, consequential, or punitive
+        damages, or any loss of profits or revenues, whether incurred directly
+        or indirectly, or any loss of data, use, goodwill, or other intangible
+        losses, resulting from your use of our services.
+      </p>
+
+      <h2>8. Governing Law</h2>
+      <p>
+        These Terms shall be governed and construed in accordance with the laws
+        of [State/Country], without regard to its conflict of law principles.
+      </p>
+
+      <h2>9. Changes to These Terms</h2>
+      <p>
+        We may modify these Terms at any time. We will notify you of any changes
+        by posting the new Terms on our website. You are advised to review these
+        Terms periodically for any changes.
+      </p>
+
+      <h2>10. Contact Us</h2>
+      <p>If you have any questions about these Terms, please contact us at:</p>
+      <p>Email: support@microapplab.com</p>
     </div>
   );
 };
