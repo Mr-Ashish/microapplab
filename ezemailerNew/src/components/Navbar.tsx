@@ -22,7 +22,7 @@ export const Navbar = () => {
                 className="w-8"
               />
             </span>
-            <span>Nextly</span>
+            <span>EzeMailer</span>
           </span>
         </Link>
 
