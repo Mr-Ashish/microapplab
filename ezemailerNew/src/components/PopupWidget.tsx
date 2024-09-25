@@ -58,7 +58,7 @@ export function PopupWidget() {
       <Disclosure>
         {({ open }) => (
           <>
-            <DisclosureButton className="fixed z-40 flex items-center justify-center transition duration-300 bg-indigo-500 rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-gray-900 focus:bg-gray-900 ease">
+            <DisclosureButton className="fixed z-40 flex items-center justify-center transition duration-300 bg-gray-500 rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-gray-900 focus:bg-gray-900 ease">
               <span className="sr-only">Open Contact form Widget</span>
               <Transition
                 show={!open}
@@ -167,7 +167,7 @@ export function PopupWidget() {
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                             errors.name
                               ? "border-red-600 focus:border-red-600 ring-red-100"
-                              : "border-gray-300 focus:border-gray-900 ring-indigo-100"
+                              : "border-gray-300 focus:border-gray-900 ring-gray-100"
                           }`}
                         />
                         {errors.name && (
@@ -198,7 +198,7 @@ export function PopupWidget() {
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring   ${
                             errors.email
                               ? "border-red-600 focus:border-red-600 ring-red-100"
-                              : "border-gray-300 focus:border-gray-900 ring-indigo-100"
+                              : "border-gray-300 focus:border-gray-900 ring-gray-100"
                           }`}
                         />
 
@@ -227,7 +227,7 @@ export function PopupWidget() {
                           className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md h-28 focus:outline-none focus:ring   ${
                             errors.message
                               ? "border-red-600 focus:border-red-600 ring-red-100"
-                              : "border-gray-300 focus:border-gray-900 ring-indigo-100"
+                              : "border-gray-300 focus:border-gray-900 ring-gray-100"
                           }`}
                           required
                         ></textarea>
@@ -240,7 +240,7 @@ export function PopupWidget() {
                       <div className="mb-3">
                         <button
                           type="submit"
-                          className="w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-gray-900 focus:outline-none"
+                          className="w-full px-3 py-4 text-white bg-gray-500 rounded-md focus:bg-gray-900 focus:outline-none"
                         >
                           {isSubmitting ? (
                             <svg
