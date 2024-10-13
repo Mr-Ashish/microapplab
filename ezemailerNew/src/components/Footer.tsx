@@ -39,6 +39,15 @@ export function Footer() {
               email-compatible designs. Simplify your email marketing with
               seamless conversions, responsive designs, and comprehensive
               previews.
+              <br />
+              <br />
+              <strong>Contact us:</strong>{" "}
+              <a
+                href="mailto:support@ezemailer.com"
+                className="text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                support@ezemailer.com
+              </a>
             </div>
 
             {/* Optional: Add a trusted partner or hosting provider logo if applicable */}
@@ -58,44 +67,6 @@ export function Footer() {
               </a>
             </div> */}
           </div>
-
-          {/* 2. Navigation Links */}
-          {/* <div>
-            <h4 className="mb-4 text-lg font-semibold text-gray-800 dark:text-white">
-              Navigation
-            </h4>
-            <div className="flex flex-col space-y-2">
-              {navigation.map((item, index) => (
-                <Link
-                  key={index}
-                  href={`/${item.toLowerCase()}`} // Assumes you have routes like /features, /pricing, etc.
-                  className="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors"
-                >
-                  {item}
-                </Link>
-              ))}
-            </div>
-          </div> */}
-
-          {/* 3. Legal Links */}
-          {/* <div>
-            <h4 className="mb-4 text-lg font-semibold text-gray-800 dark:text-white">
-              Legal
-            </h4>
-            <div className="flex flex-col space-y-2">
-              {legal.map((item, index) => (
-                <Link
-                  key={index}
-                  href={`/${item.toLowerCase().replace(/ /g, "-")}`} // Assumes routes like /terms-of-service, /privacy-policy, etc.
-                  className="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white transition-colors"
-                >
-                  {item}
-                </Link>
-              ))}
-            </div>
-          </div> */}
-
-          {/* 4. Follow Us Section (Optional) */}
         </div>
 
         {/* Copyright */}
