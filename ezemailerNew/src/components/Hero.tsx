@@ -31,7 +31,7 @@ export const Hero = () => {
                 target="_blank"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-600 rounded-md hover:bg-blue-700 transition"
               >
-                Get Started for Free
+                Get Started
               </a>
 
               {/* Secondary CTA */}
