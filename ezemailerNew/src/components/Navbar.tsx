@@ -15,7 +15,7 @@ export const Navbar = () => {
           <span className="flex items-center space-x-2 text-2xl font-medium text-gray-500 dark:text-gray-100">
             <span>
               <Image
-                src="/img/logo.svg"
+                src="/img/envelope.svg"
                 width="32"
                 alt="N"
                 height="32"
@@ -28,18 +28,19 @@ export const Navbar = () => {
 
         {/* get started  */}
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
-          <ThemeChanger />
+          {/* <ThemeChanger /> */}
           <div className="hidden mr-3 lg:flex nav__item">
-            <Link
-              href="/"
+            <a
+              href="https://ezemailer.microapplab.com"
+              target="_blank"
               className="px-6 py-2 text-white bg-gray-900 rounded-md md:ml-5"
             >
               Get Started
-            </Link>
+            </a>
           </div>
         </div>
 
-        <Disclosure>
+        {/* <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button
@@ -88,10 +89,10 @@ export const Navbar = () => {
               </Disclosure.Panel>
             </>
           )}
-        </Disclosure>
+        </Disclosure> */}
 
         {/* menu  */}
-        <div className="hidden text-center lg:flex lg:items-center">
+        {/* <div className="hidden text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
@@ -104,7 +105,7 @@ export const Navbar = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </nav>
     </div>
   );

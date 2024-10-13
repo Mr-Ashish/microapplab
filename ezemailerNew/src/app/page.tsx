@@ -1,3 +1,5 @@
+"use client";
+
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
@@ -8,49 +10,56 @@ import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
 import { benefitOne, benefitTwo } from "@/components/data";
+
 export default function Home() {
   return (
     <Container>
+      {/* 1. Hero Section */}
       <Hero />
+
+      {/* 2. Key Features Section */}
       <SectionTitle
         preTitle="EzeMailer Benefits"
-        title=" Why should you use this landing page"
+        title="Why Choose EzeMailer for Your Email Campaigns"
       >
-        EzeMailer is a free landing page & marketing website template for
-        startups and indie projects. Its built with Next.js & TailwindCSS. And
-        its completely open-source.
+        EzeMailer is a comprehensive tool designed to streamline your email
+        marketing efforts. Convert, design, and manage your email templates
+        effortlessly, ensuring they are compatible across all major email
+        clients.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
-      >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+      {/* 3. Video Section */}
+      {/* <SectionTitle preTitle="Watch a Demo" title="See EzeMailer in Action">
+        Discover how EzeMailer can revolutionize your email campaigns. Watch our
+        demo video to learn how easy it is to convert your HTML templates into
+        stunning, email-ready designs.
       </SectionTitle>
 
-      <Video videoId="fZ0D0cnR88E" />
+      <Video videoId="fZ0D0cnR88E" /> */}
 
-      <SectionTitle
+      {/* 4. Testimonials Section */}
+      {/* <SectionTitle
         preTitle="Testimonials"
-        title="Here's what our customers said"
+        title="Here's What Our Customers Say"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Hear from our satisfied users and learn how EzeMailer has transformed
+        their email marketing strategies.
       </SectionTitle>
 
-      <Testimonials />
+      <Testimonials /> */}
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      {/* 5. FAQ Section */}
+      {/* <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
+        Have questions? We’ve got answers. Learn more about how EzeMailer can
+        benefit your email campaigns.
       </SectionTitle>
 
-      <Faq />
+      <Faq /> */}
+
+      {/* 6. Call to Action Section */}
       <Cta />
     </Container>
   );
