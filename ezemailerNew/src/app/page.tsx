@@ -10,6 +10,37 @@ import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
 
 import { benefitOne, benefitTwo } from "@/components/data";
+// app/page.jsx
+
+export const metadata = {
+  title: "EzeMailer - Effortlessly Convert HTML to Emails",
+  description:
+    "Transform your HTML templates into flawless, email-compatible designs with EzeMailer.",
+  keywords: [
+    "EzeMailer",
+    "HTML to Email",
+    "Email Templates",
+    "Responsive Emails",
+    "HTML Email converter",
+  ],
+  authors: [{ name: "Microapplab", url: "https://ezemail.microapplab.com" }],
+  openGraph: {
+    title: "EzeMailer - Effortlessly Convert HTML to Emails",
+    description:
+      "Transform your HTML templates into flawless, email-compatible designs with EzeMailer.",
+    url: "https://ezemail.microapplab.com",
+    siteName: "EzeMailer",
+    images: [
+      {
+        url: "https://ezemail.microapplab.com/img/envelope.svg",
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+};
 
 export default function Home() {
   return (
