@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ezemail.microapplab.com
+
+# Sitemaps
+Sitemap: https://ezemail.microapplab.com/sitemap.xml
