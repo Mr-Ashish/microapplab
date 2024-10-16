@@ -135,7 +135,7 @@ export default function RequestTool() {
                       name="idea"
                       className="form-textarea w-full appearance-none bg-gray-800 border border-gray-700 focus:border-gray-600 rounded-sm px-4 py-3 text-white placeholder-gray-500"
                       placeholder="Describe your idea..."
-                      rows="4"
+                      rows={4}
                       required
                     ></textarea>
                   </div>

@@ -3,7 +3,13 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 
-export default function Dropdown({ label, children }) {
+export default function Dropdown({
+  label,
+  children,
+}: {
+  label: string;
+  children: React.ReactNode;
+}) {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
