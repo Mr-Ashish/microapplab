@@ -78,7 +78,8 @@ export default function Hero() {
                 <div>
                   <a
                     href="#request-tool"
-                    className="btn text-white bg-teal-600 hover:bg-teal-700 shadow w-full sm:w-auto rounded-full flex flex-row items-center justify-center px-6 py-3"
+                    className="btn text-white bg-teal-600 hover:bg-teal-700 shadow w-full sm:w-auto mb-4 sm:mb-0 rounded-full flex flex-row items-center justify-center px-6 py-3"
+                    style={{ lineHeight: 1 }}
                   >
                     Submit Your Idea
                   </a>
