@@ -31,7 +31,7 @@ export const Navbar = () => {
           {/* <ThemeChanger /> */}
           <div className="hidden mr-3 lg:flex nav__item">
             <a
-              href="https://ezemailer.microapplab.com"
+              href="https://app.microapplab.com"
               target="_blank"
               className="px-6 py-2 text-white bg-gray-900 rounded-md md:ml-5"
             >

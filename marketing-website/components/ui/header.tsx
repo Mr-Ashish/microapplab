@@ -1,18 +1,18 @@
+// components/Header.js
+
 "use client";
 
 import { useState, useEffect } from "react";
-
 import Link from "next/link";
 import Logo from "./logo";
-import Dropdown from "@/components/utils/dropdown";
 import MobileMenu from "./mobile-menu";
-import Image from "next/image";
-import birthdayBilly from "@/public/images/birthdayBilly.png";
+import Dropdown from "./dropdown";
+// Removed unused import of Image and birthdayBilly image
 
 export default function Header() {
-  const [top, setTop] = useState<boolean>(true);
+  const [top, setTop] = useState(true);
 
-  // detect whether user has scrolled the page down by 10px
+  // Detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
     window.pageYOffset > 10 ? setTop(false) : setTop(true);
   };
@@ -34,45 +34,20 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4 flex flex-row items-center">
             <Logo />
+            {/* Optionally, you can uncomment and use the BirthdayBilly image here */}
             {/* <Image
               className="mx-2"
               src={birthdayBilly}
               width={80}
-              height="80"
-              alt="slack"
+              height={80}
+              alt="BirthdayBilly Logo"
             /> */}
           </div>
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
-            {/* Desktop sign in links */}
+            {/* Desktop navigation links */}
             <ul className="flex grow justify-end flex-wrap items-center">
-              {/* <li>
-                <Link
-                  href="/signin"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Sign in
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/signup"
-                  className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
-                >
-                  <span>Sign up</span>
-                  <svg
-                    className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1"
-                    viewBox="0 0 12 12"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z"
-                      fillRule="nonzero"
-                    />
-                  </svg>
-                </Link>
-              </li> */}
               <li>
                 <Link
                   href="/"
@@ -81,33 +56,37 @@ export default function Header() {
                   Home
                 </Link>
               </li>
+
+              {/* Products Dropdown */}
               <li>
-                <Link
-                  href="/pricing"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Pricing
-                </Link>
+                <Dropdown label="Products">
+                  <Link
+                    href="/birthdaybilly"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                  >
+                    BirthdayBilly
+                  </Link>
+                  <Link
+                    href="https://ezemail.microapplab.com"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                  >
+                    Ezemailer
+                  </Link>
+                </Dropdown>
               </li>
-              {/* <li>
-                <Link
-                  href="/help"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Help
-                </Link>
-              </li> */}
+
               <li>
                 <Link
                   href="/contactUs"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Contact us
+                  Contact Us
                 </Link>
               </li>
             </ul>
           </nav>
 
+          {/* Mobile Menu */}
           <MobileMenu />
         </div>
       </div>

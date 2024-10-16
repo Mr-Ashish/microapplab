@@ -27,7 +27,7 @@ export const Hero = () => {
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               {/* Primary CTA */}
               <a
-                href="https://ezemailer.microapplab.com"
+                href="https://app.microapplab.com"
                 target="_blank"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-600 rounded-md hover:bg-blue-700 transition"
               >

@@ -43,7 +43,7 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/birthdaybilly"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   BirthdayBilly
@@ -51,10 +51,10 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="https://ezemail.microapplab.com"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Standup Assistant
+                  Ezemailer
                 </a>
               </li>
               {/* <li className="mb-2">
@@ -152,14 +152,14 @@ export default function Footer() {
                 </a>
               </li>
 
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <a
                   href="/pricing"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Pricing
                 </a>
-              </li>
+              </li> */}
               <li className="mb-2">
                 <a
                   href="/privacyPolicy"

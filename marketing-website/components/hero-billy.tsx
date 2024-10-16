@@ -48,10 +48,11 @@ export default function Hero() {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Empowering the Tech Community with Innovative{" "}
+              Introducing the Ultimate{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
-                SaaS Tools & Solutions
+                Birthday App{" "}
               </span>
+              for Slack!
             </h1>
             <div className="max-w-3xl mx-auto">
               <h2
@@ -59,28 +60,27 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Simplify workflows, enhance productivity, and drive innovation.
+                Never Miss a Birthday Celebration Again!
               </h2>
               <div
-                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center space-x-0 sm:space-x-4"
+                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
                 <div>
                   <a
-                    href="#products"
-                    className="btn text-white bg-blue-600 hover:bg-blue-700 shadow w-full sm:w-auto mb-4 sm:mb-0 rounded-full flex flex-row items-center justify-center px-6 py-3"
+                    href="http://apiv2.microapplab.com/slack/install"
+                    className="btn text-white bg-black bg-opacity-50 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0 rounded-full flex flex-row items-center"
                     style={{ lineHeight: 1 }}
                   >
-                    Explore Our Tools
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href="#request-tool"
-                    className="btn text-white bg-teal-600 hover:bg-teal-700 shadow w-full sm:w-auto rounded-full flex flex-row items-center justify-center px-6 py-3"
-                  >
-                    Submit Your Idea
+                    <Image
+                      className="mr-2"
+                      src={SlackIcon}
+                      width={20}
+                      height="20"
+                      alt="slack"
+                    />
+                    <div className="flex items-center">Add to slack</div>
                   </a>
                 </div>
               </div>
@@ -88,41 +88,27 @@ export default function Hero() {
           </div>
 
           {/* Hero image */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-3">
             <div className="flex items-center justify-center">
               <Image
                 className="h-auto max-w-full rounded-lg"
                 src={HeroImage}
                 width={800}
-                height={400}
-                alt="Innovative SaaS Tools"
+                height="20"
+                alt="slack"
               />
             </div>
-            <div>
-              <p className="text-gray-600 mb-4">
-                At MicroAppLab, we specialize in developing small yet powerful
-                SaaS tools and software solutions tailored to meet the unique
-                needs of developers, businesses, and tech enthusiasts. Our
-                mission is to create tools that simplify complex tasks, foster
-                collaboration, and drive productivity.
-              </p>
-              <p className="text-gray-600">
-                Whether you're looking to streamline your workflows, integrate
-                with popular platforms like Slack and Microsoft Teams, or bring
-                your own software idea to life, we've got you covered.
-              </p>
-              {/* Optional: Add ModalVideo if you want to include a video */}
-              {/* <ModalVideo
-                thumb={VideoThumb}
-                thumbWidth={768}
-                thumbHeight={432}
-                thumbAlt="Modal video thumbnail"
-                video="/videos/video.mp4"
-                videoWidth={1920}
-                videoHeight={1080}
-              /> */}
-            </div>
           </div>
+
+          {/* <ModalVideo
+            thumb={VideoThumb}
+            thumbWidth={768}
+            thumbHeight={432}
+            thumbAlt="Modal video thumbnail"
+            video="/videos/video.mp4"
+            videoWidth={1920}
+            videoHeight={1080}
+          /> */}
         </div>
       </div>
     </section>
