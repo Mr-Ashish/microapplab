@@ -1,22 +1,25 @@
 export const metadata = {
-  title: "MicroAppLab - BirthdayBilly",
+  title: "MicroAppLab - Launchpad",
 };
 
 import Hero from "./hero";
-import Features from "@/components/features";
-import FeaturesBlocks from "@/components/features-blocks";
-import Testimonials from "@/components/testimonials";
-import Newsletter from "@/components/newsletter";
-import RequestTool from "@/components/request-tool";
+import WhyChoose from "./why";
+import KeyFeatures from "./features";
+import HowItWorks from "./how";
+import TechStack from "./tech";
+import Testimonials from "./testimonials";
+import GetStarted from "./Getstarted";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      {/* <Features /> */}
-      {/* <FeaturesBlocks /> */}
+      <WhyChoose />
+      <TechStack />
+      <HowItWorks />
+      {/* <KeyFeatures /> */}
       {/* <Testimonials /> */}
-      {/* <RequestTool /> */}
+      <GetStarted />
     </>
   );
 }

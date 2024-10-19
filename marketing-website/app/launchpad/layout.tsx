@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 
 import Footer from "@/components/ui/footer";
 import Script from "next/script";
+import Metadata from "./Metadata";
 
 export default function DefaultLayout({
   children,
@@ -24,6 +25,7 @@ export default function DefaultLayout({
 
   return (
     <>
+      <Metadata />
       <main className="grow">{children}</main>
       <Footer />
     </>

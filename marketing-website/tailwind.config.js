@@ -48,6 +48,11 @@ module.exports = {
           Violet: "#403d58",
           Straw: "#dbd56e",
         },
+        "color-493B2A": "#493B2A",
+        "color-593F62": "#593F62",
+        "color-7B6D8D": "#7B6D8D",
+        "color-8499B1": "#8499B1",
+        "color-A5C4D4": "#A5C4D4",
       },
       boxShadow: {
         xs: "0 0 0 1px rgba(0, 0, 0, 0.16)",
