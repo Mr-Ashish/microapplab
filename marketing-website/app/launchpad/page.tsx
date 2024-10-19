@@ -2,7 +2,7 @@ export const metadata = {
   title: "MicroAppLab - BirthdayBilly",
 };
 
-import Hero from "@/app/birthdaybilly/hero-billy";
+import Hero from "./hero";
 import Features from "@/components/features";
 import FeaturesBlocks from "@/components/features-blocks";
 import Testimonials from "@/components/testimonials";
