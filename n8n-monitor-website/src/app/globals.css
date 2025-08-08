@@ -1,0 +1,235 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+  
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid #EE4F27;
+  outline-offset: 2px;
+}
+
+/* Custom selection */
+::selection {
+  background-color: #EE4F27;
+  color: white;
+}
+
+/* Authentic n8n Brand Colors Implementation */
+:root {
+  /* Primary colors - n8n Orange */
+  --n8n-primary: #EE4F27;        /* n8n Primary Orange */
+  --n8n-primary-dark: #D63E1F;   /* Darker n8n Orange */
+  --n8n-primary-light: #F36B47;  /* Lighter n8n Orange */
+  --n8n-primary-lighter: #F8876A; /* Even Lighter n8n Orange */
+  
+  /* Secondary colors - n8n Blue */
+  --n8n-secondary: #077AC7;       /* n8n Bright Blue */
+  --n8n-secondary-dark: #0565A3;  /* Darker n8n Blue */
+  --n8n-secondary-light: #2994D1; /* Lighter n8n Blue */
+  --n8n-secondary-lighter: #4BADDB; /* Even Lighter n8n Blue */
+  
+  /* Accent colors - n8n Violet */
+  --n8n-accent: #6B21EF;          /* n8n Violet */
+  --n8n-accent-dark: #5A1ACC;     /* Darker n8n Violet */
+  --n8n-accent-light: #8044F2;    /* Lighter n8n Violet */
+  --n8n-accent-lighter: #9566F5;  /* Even Lighter n8n Violet */
+  
+  /* Highlight colors - Success Green (from app status) */
+  --n8n-highlight: #28A745;       /* Success Green */
+  --n8n-highlight-dark: #1E7E34;  /* Darker Green */
+  --n8n-highlight-light: #51B866; /* Lighter Green */
+  --n8n-highlight-lighter: #7AC788; /* Even Lighter Green */
+  
+  /* Neutral colors - n8n App Grays */
+  --n8n-neutral-50: #F8F9FA;
+  --n8n-neutral-100: #F1F3F4;
+  --n8n-neutral-200: #E1E4E8;
+  --n8n-neutral-300: #C4BBD3;
+  --n8n-neutral-400: #8E9297;
+  --n8n-neutral-500: #6C757D;
+  --n8n-neutral-600: #363B47;
+  --n8n-neutral-700: #2A1F35;
+  --n8n-neutral-800: #1F192A;
+  --n8n-neutral-900: #0E0918;
+  
+  /* Status colors - from n8n app */
+  --n8n-success: #28A745;
+  --n8n-warning: #FFC107;
+  --n8n-error: #DC3545;
+  --n8n-info: #077AC7;
+  
+  /* Light theme (default) - from n8n app */
+  --n8n-background: #FFFFFF;
+  --n8n-surface: #F8F9FA;
+  --n8n-surface-variant: #F1F3F4;
+  --n8n-surface-elevated: #FFFFFF;
+  --n8n-text: #1F192A;
+  --n8n-text-secondary: #6C757D;
+  --n8n-text-muted: #8E9297;
+  --n8n-border: #E1E4E8;
+  --n8n-card: #FFFFFF;
+  --n8n-shadow: rgba(0, 0, 0, 0.08);
+  --n8n-shadow-lg: rgba(0, 0, 0, 0.12);
+  --n8n-shadow-xl: rgba(0, 0, 0, 0.16);
+  
+  /* Enhanced gradients for light theme - n8n brand */
+  --n8n-gradient-primary: linear-gradient(135deg, #EE4F27 0%, #F36B47 100%);
+  --n8n-gradient-secondary: linear-gradient(135deg, #077AC7 0%, #2994D1 100%);
+  --n8n-gradient-accent: linear-gradient(135deg, #6B21EF 0%, #8044F2 100%);
+  --n8n-gradient-highlight: linear-gradient(135deg, #28A745 0%, #51B866 100%);
+  --n8n-gradient-surface: linear-gradient(135deg, #F8F9FA 0%, #F1F3F4 100%);
+  --n8n-gradient-card: linear-gradient(135deg, #FFFFFF 0%, #F8F9FA 100%);
+  --n8n-gradient-hero: linear-gradient(135deg, #F8F9FA 0%, #F1F3F4 100%);
+  --n8n-gradient-multi: linear-gradient(135deg, #EE4F27 0%, #077AC7 25%, #6B21EF 50%, #28A745 100%);
+}
+
+/* Dark theme (optional) - n8n app dark theme */
+.dark {
+  --n8n-background: #0E0918;
+  --n8n-surface: #1F192A;
+  --n8n-surface-variant: #2A1F35;
+  --n8n-surface-elevated: #363B47;
+  --n8n-text: #C4BBD3;
+  --n8n-text-secondary: #8E9297;
+  --n8n-text-muted: #6C757D;
+  --n8n-border: #363B47;
+  --n8n-card: #1F192A;
+  --n8n-shadow: rgba(0, 0, 0, 0.25);
+  --n8n-shadow-lg: rgba(0, 0, 0, 0.35);
+  --n8n-shadow-xl: rgba(0, 0, 0, 0.45);
+  
+  /* Enhanced gradients for dark theme - n8n brand */
+  --n8n-gradient-primary: linear-gradient(135deg, #D63E1F 0%, #EE4F27 100%);
+  --n8n-gradient-secondary: linear-gradient(135deg, #0565A3 0%, #077AC7 100%);
+  --n8n-gradient-accent: linear-gradient(135deg, #5A1ACC 0%, #6B21EF 100%);
+  --n8n-gradient-highlight: linear-gradient(135deg, #1E7E34 0%, #28A745 100%);
+  --n8n-gradient-surface: linear-gradient(135deg, #1F192A 0%, #2A1F35 100%);
+  --n8n-gradient-card: linear-gradient(135deg, #2A1F35 0%, #363B47 100%);
+  --n8n-gradient-hero: linear-gradient(135deg, #0E0918 0%, #1F192A 100%);
+  --n8n-gradient-multi: linear-gradient(135deg, #D63E1F 0%, #0565A3 25%, #5A1ACC 50%, #1E7E34 100%);
+}
+
+/* Enhanced gradients */
+.gradient-primary {
+  background: var(--n8n-gradient-primary);
+}
+
+.gradient-secondary {
+  background: var(--n8n-gradient-secondary);
+}
+
+.gradient-accent {
+  background: var(--n8n-gradient-accent);
+}
+
+.gradient-highlight {
+  background: var(--n8n-gradient-highlight);
+}
+
+.gradient-surface {
+  background: var(--n8n-gradient-surface);
+}
+
+.gradient-card {
+  background: var(--n8n-gradient-card);
+}
+
+.gradient-hero {
+  background: var(--n8n-gradient-hero);
+}
+
+.gradient-multi {
+  background: var(--n8n-gradient-multi);
+}
+
+/* Modern glass effects */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Enhanced shadows */
+.shadow-soft {
+  box-shadow: 0 2px 8px var(--n8n-shadow);
+}
+
+.shadow-medium {
+  box-shadow: 0 4px 16px var(--n8n-shadow-lg);
+}
+
+.shadow-strong {
+  box-shadow: 0 8px 32px var(--n8n-shadow-xl);
+}
+
+.shadow-glow {
+  box-shadow: 0 0 20px rgba(238, 79, 39, 0.3);
+}
+
+.shadow-glow-primary {
+  box-shadow: 0 0 20px rgba(238, 79, 39, 0.3);
+}
+
+.shadow-glow-secondary {
+  box-shadow: 0 0 20px rgba(7, 122, 199, 0.3);
+}
+
+.shadow-glow-highlight {
+  box-shadow: 0 0 20px rgba(40, 167, 69, 0.3);
+}
