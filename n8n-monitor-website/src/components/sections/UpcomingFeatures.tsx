@@ -102,14 +102,14 @@ export default function UpcomingFeatures() {
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            What's Coming
+            What&apos;s Coming
             <span className="bg-gradient-to-r from-[#EE4F27] to-[#077AC7] bg-clip-text text-transparent">
               {" "}
               Next
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're constantly improving n8n Monitor. Here's what we're working on
+            We&apos;re constantly improving n8n Monitor. Here&apos;s what we&apos;re working on
             to make your workflow monitoring experience even better.
           </p>
         </motion.div>

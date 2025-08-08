@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
               Introduction
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              n8n Monitor ("we," "our," or "us") is committed to protecting your
+              n8n Monitor (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your
               privacy. This Privacy Policy explains how we collect, use, and
               safeguard your information when you use our mobile application.
             </p>
@@ -155,7 +155,7 @@ export default function PrivacyPolicy() {
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-              Children's Privacy
+              Children&apos;s Privacy
             </h2>
             <p className="text-gray-700 leading-relaxed">
               Our app is not intended for use by children under 13 years of age.
@@ -171,7 +171,7 @@ export default function PrivacyPolicy() {
             <p className="text-gray-700 leading-relaxed">
               We may update this Privacy Policy from time to time. We will
               notify you of any changes by posting the new Privacy Policy on
-              this page and updating the "Last updated" date.
+              this page and updating the &quot;Last updated&quot; date.
             </p>
           </section>
 
